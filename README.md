@@ -30,6 +30,7 @@ PHP, JavaScript, JQuery, MySQL
 1) PHP версии 7.3.27 и выше
 2) OS сервера - Linux v 4.9.0
 3) СУБД MySQL
+
 Более подробные сведения см. в <a href="http://chipin.ai-info.ru/config.php">config.php</a>
 
 

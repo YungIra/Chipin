@@ -1,0 +1,114 @@
+@font-face {
+    font-family: Noto-Sans;
+    src: url("assets/fonts/Noto-Sans/NotoSans-Regular.ttf");
+    font-weight: normal;
+}
+@font-face {
+    font-family: Noto-Sans;
+    src: url("assets/fonts/Noto-Sans/NotoSans-Italic.ttf");
+    font-style: italic;
+}
+@font-face {
+    font-family: Noto-Sans;
+    src: url("assets/fonts/Noto-Sans/NotoSans-BoldItalic.ttf");
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: Noto-Sans;
+    src: url("assets/fonts/Noto-Sans/NotoSans-Bold.ttf");
+    font-weight: bold;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Noto-Sans;
+}
+
+header
+{
+    height: 100px;
+    background-color: #000;
+}
+
+h1
+{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.header-content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.header-content-logo
+{
+    max-width: 400px;
+}
+
+.add-person-form
+{
+    width: 723px;
+    margin: 0 auto;
+}
+
+.add-person-form-pole
+{
+    margin-bottom: 20px;
+}
+
+.add-person-form-label
+{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;  
+}
+
+.add-person-form-input
+{
+    height: 50px;
+
+    margin-left: 20px;
+
+    background: rgba(0, 0, 0, 0.06);
+    border-radius: 9px;
+    border: none;
+}
+
+.form-input-name
+{
+    width: 360px;
+}
+.form-input-age
+{
+    width: 69px;
+}
+.form-input-amount
+{
+    width: 69px;
+}
+.form-input-sum
+{
+    width: 111px;   
+}
+
+.add-person-form-submit
+{
+    width: 223px;
+    height: 50px;
+    background: #000000;
+    border-radius: 9px;
+    color: white;
+    border: none;
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
